@@ -18,6 +18,8 @@ public class AdvancedCalculatior extends BasicCalculator implements AdvancedOper
 		
 		double reslut = Math.sin(number);
 		
+		//double reslut = (Math.sinh(number));
+		
 		return reslut;
 	}
 	
