@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="216" started-at="2021-04-01T22:43:28Z" finished-at="2021-04-01T22:43:29Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="216" started-at="2021-04-01T22:43:28Z" finished-at="2021-04-01T22:43:29Z">
+      <class name="com.exemple.Teknikhogskolan._pass_aleks_Calculator.AdvancedCalculatorTest">
+        <test-method status="PASS" signature="inverseTest()[pri:0, instance:inverseTest(com.exemple.Teknikhogskolan._pass_aleks_Calculator.AdvancedCalculatorTest)]" name="inverseTest" duration-ms="18" started-at="2021-04-02T00:43:29Z" finished-at="2021-04-02T00:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inverseTest -->
+        <test-method status="PASS" signature="multyTest()[pri:0, instance:multyTest(com.exemple.Teknikhogskolan._pass_aleks_Calculator.AdvancedCalculatorTest)]" name="multyTest" duration-ms="3" started-at="2021-04-02T00:43:29Z" finished-at="2021-04-02T00:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multyTest -->
+        <test-method status="PASS" signature="sinusTest()[pri:0, instance:sinusTest(com.exemple.Teknikhogskolan._pass_aleks_Calculator.AdvancedCalculatorTest)]" name="sinusTest" duration-ms="14" started-at="2021-04-02T00:43:29Z" finished-at="2021-04-02T00:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sinusTest -->
+        <test-method status="PASS" signature="resiedToThePowerOfTest()[pri:0, instance:resiedToThePowerOfTest(com.exemple.Teknikhogskolan._pass_aleks_Calculator.AdvancedCalculatorTest)]" name="resiedToThePowerOfTest" duration-ms="6" started-at="2021-04-02T00:43:29Z" finished-at="2021-04-02T00:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resiedToThePowerOfTest -->
+        <test-method status="PASS" signature="addisonTest()[pri:0, instance:addisonTest(com.exemple.Teknikhogskolan._pass_aleks_Calculator.AdvancedCalculatorTest)]" name="addisonTest" duration-ms="5" started-at="2021-04-02T00:43:29Z" finished-at="2021-04-02T00:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addisonTest -->
+        <test-method status="PASS" signature="remainderTest()[pri:0, instance:remainderTest(com.exemple.Teknikhogskolan._pass_aleks_Calculator.AdvancedCalculatorTest)]" name="remainderTest" duration-ms="5" started-at="2021-04-02T00:43:29Z" finished-at="2021-04-02T00:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remainderTest -->
+        <test-method status="PASS" signature="devisonTest()[pri:0, instance:devisonTest(com.exemple.Teknikhogskolan._pass_aleks_Calculator.AdvancedCalculatorTest)]" name="devisonTest" duration-ms="7" started-at="2021-04-02T00:43:29Z" finished-at="2021-04-02T00:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- devisonTest -->
+        <test-method status="PASS" signature="subbtractTest()[pri:0, instance:subbtractTest(com.exemple.Teknikhogskolan._pass_aleks_Calculator.AdvancedCalculatorTest)]" name="subbtractTest" duration-ms="9" started-at="2021-04-02T00:43:29Z" finished-at="2021-04-02T00:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subbtractTest -->
+        <test-method status="PASS" signature="testSquare()[pri:0, instance:testSquare(com.exemple.Teknikhogskolan._pass_aleks_Calculator.AdvancedCalculatorTest)]" name="testSquare" duration-ms="4" started-at="2021-04-02T00:43:29Z" finished-at="2021-04-02T00:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquare -->
+      </class> <!-- com.exemple.Teknikhogskolan._pass_aleks_Calculator.AdvancedCalculatorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
