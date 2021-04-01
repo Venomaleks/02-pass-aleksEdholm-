@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>AdvancedCalculatior.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">02_pass_aleks_Calculator</a> &gt; <a href="index.source.html" class="el_package">com.exemple.Teknikhogskolan._pass_aleks_Calculator</a> &gt; <span class="el_source">AdvancedCalculatior.java</span></div><h1>AdvancedCalculatior.java</h1><pre class="source lang-java linenums">package com.exemple.Teknikhogskolan._pass_aleks_Calculator;
+
+import com.exemple.Teknikhogskolan._pass_aleks_Calculator_interface.AdvancedOperations;
+
+<span class="fc" id="L5">public class AdvancedCalculatior extends BasicCalculator implements AdvancedOperations {</span>
+
+	@Override
+	public double square(double number) {
+		
+<span class="fc" id="L10">		double reslut = number * number;</span>
+		
+<span class="fc" id="L12">		return reslut;</span>
+	}
+	
+	
+	@Override
+	public double sinus(double number) {
+		
+<span class="fc" id="L19">		double reslut = Math.sin(number);</span>
+		
+		//double reslut = (Math.sinh(number));
+		
+<span class="fc" id="L23">		return reslut;</span>
+	}
+	
+
+	@Override
+	public double resiedToThePowerOf(double base, double exponent) {
+		
+<span class="fc" id="L30">		double reslut = Math.pow(base, exponent);</span>
+		
+<span class="fc" id="L32">		return reslut;</span>
+	}
+	
+
+	@Override
+	public double remainder(double dividend, double divisor) {
+		
+<span class="fc" id="L39">		double reslut = dividend % divisor;</span>
+		
+<span class="fc" id="L41">		return reslut;</span>
+	}
+
+	
+	@Override
+	public double inverse(double number) {
+		
+<span class="fc" id="L48">		double reslut = 1 / number;</span>
+		
+<span class="fc" id="L50">		return reslut;</span>
+	}
+	
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>
